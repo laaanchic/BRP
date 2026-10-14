@@ -29,7 +29,6 @@
 
 clearvars
 BRP_folder = 'enter the folder with the code and data from GitHub';
-BRP_folder = pwd;
 addpath(genpath(BRP_folder));
 if ~exist('ft_defaults', 'file'), error('FieldTrip not found. Add it to the path.'); end
 ft_notice off; ft_info off
